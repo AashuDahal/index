@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Raleway;
+}
+.flex-container{
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: row;
+}
+h1{
+    text-align:center;
+    text-shadow: 3px 3px 2px lightgrey;
+    text-decoration: line-through;
+ }
+ 
+.flex-item{
+    border: 1px solid black;
+    width:200px;
+    height:auto;
+}
+.flex-item p{
+    font-family: Raleway    ;
+    text-decoration:underline;
+    text-align:justify;
+    word-spacing: 10px;
+    text-indent: 40px;
+    line-height: 2;
+    text-transform: capitalize;
+}
+.para{
+    background-color: lightcoral;
+    text-align: center;
+}
